@@ -50,7 +50,7 @@ $(window).ready(function () {
   Countdown timer
   --------------------------------*/
   $(".time").countdown({
-    date: "april 20, 2016 16:00:00",
+    date: "January 1, 2020 00:00:00",
     leadingZero: true,
     htmlTemplate: '<div id="counter-day" class="countdown col-md-3 col-xs-6 col-sm-3"><div><span class="count-int">%d</span><span class="count-text">Days</span></div></div><div id="counter-hour" class="countdown col-md-3 col-xs-6 col-sm-3"><div><span class="count-int">%h</span><span class="count-text">Hours</span></div></div><div id="counter-min" class="countdown col-md-3 col-xs-6 col-sm-3"><div><span class="count-int">%i</span><span class="count-text">Minutes</span></div></div><div id="counter-sec" class="countdown col-md-3 col-xs-6 col-sm-3 c_last"><div><span class="count-int">%s</span><span class="count-text">Seconds</span></div></div>',
   });
